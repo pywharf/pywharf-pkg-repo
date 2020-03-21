@@ -1,0 +1,50 @@
+name: update-index
+on:
+  push:
+  schedule:
+    - cron: "* * * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Split owner/repo
+        run: |
+          echo "::set-env name=OWNER::$(cut -d/ -f1 <<< ${{ github.repository }})"
+          echo "::set-env name=REPO::$(cut -d/ -f2 <<< ${{ github.repository }})"
+      - name: Update index.
+        uses: docker://privatepypi/private-pypi:0.1.0a12
+        with:
+          args: >-
+            update_index
+            --type github
+            --name ${{ env.REPO }}
+            --secret ${{ github.token }}
+            --owner ${{ env.OWNER }}
+            --repo ${{ env.REPO }}
+            --branch master
+            --index_filename index.toml
+
+      - run: mkdir gh-pages
+      - name: Generate public github pages.
+        uses: docker://privatepypi/private-pypi:0.1.0a12
+        with:
+          args: >-
+            github.gen_gh_pages
+            --name ${{ env.REPO }}
+            --token ${{ github.token }}
+            --owner ${{ env.OWNER }}
+            --repo ${{ env.REPO }}
+            --branch master
+            --index_filename index.toml
+            --output_folder gh-pages
+      - name: Publish public github pages.
+        run: |
+          cd gh-pages
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "github-actions[bot]"
+          git init
+          git checkout -b gh-pages
+          git add --all
+          git commit -m "Publish github pages."
+          git remote add origin https://${{ github.actor }}:${{ github.token }}@github.com/${{ env.OWNER }}/${{ env.REPO }}.git
+          git push -u origin gh-pages --force
