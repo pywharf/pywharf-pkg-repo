@@ -12,7 +12,7 @@ jobs:
           echo "::set-env name=OWNER::$(cut -d/ -f1 <<< ${{ github.repository }})"
           echo "::set-env name=REPO::$(cut -d/ -f2 <<< ${{ github.repository }})"
       - name: Update index.
-        uses: docker://privatepypi/private-pypi:0.1.0a12
+        uses: docker://privatepypi/private-pypi:0.1.0a17
         with:
           args: >-
             update_index
