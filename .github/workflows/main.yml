@@ -12,7 +12,7 @@ jobs:
           echo "::set-env name=OWNER::$(cut -d/ -f1 <<< ${{ github.repository }})"
           echo "::set-env name=REPO::$(cut -d/ -f2 <<< ${{ github.repository }})"
       - name: Update index.
-        uses: docker://privatepypi/private-pypi:0.2.0
+        uses: docker://pywharf/pywharf:0.2.0
         with:
           args: >-
             update_index
@@ -26,7 +26,7 @@ jobs:
 
       - run: mkdir gh-pages
       - name: Generate public github pages.
-        uses: docker://privatepypi/private-pypi:0.2.0
+        uses: docker://pywharf/pywharf:0.2.0
         with:
           args: >-
             github.gen_gh_pages
