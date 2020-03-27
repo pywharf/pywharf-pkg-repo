@@ -1,11 +1,11 @@
-mtime = 1585300773
+mtime = 1585301554
 [[pkgs]]
 type = "github"
 distrib = "private-pypi"
 package = "private_pypi-0.2.0-py3-none-any"
 ext = "whl"
 sha256 = "8bd77104467a6afaadae2d5d7616c8fcf0452085667b674f11b83aa1dc12cdac"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18996761"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18996761"
 
 [pkgs.meta]
 name = "private-pypi"
@@ -42,7 +42,7 @@ distrib = "private-pypi-github"
 package = "private_pypi_github-0.2.0-py3-none-any"
 ext = "whl"
 sha256 = "f98ee41590b06c57b379efa08a329e27d29cc7b8997d84697008a5abaa734364"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18996656"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18996656"
 
 [pkgs.meta]
 name = "private-pypi-github"
@@ -79,7 +79,7 @@ distrib = "private-pypi-core"
 package = "private_pypi_core-0.2.0-py3-none-any"
 ext = "whl"
 sha256 = "399664abae2c4c4e29667c96212d5390d6a1e5276e89195ce2bc15df67637c12"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18996010"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18996010"
 
 [pkgs.meta]
 name = "private-pypi-core"
@@ -116,7 +116,7 @@ distrib = "private-pypi"
 package = "private_pypi-0.1.0a17-py3-none-any"
 ext = "whl"
 sha256 = "e38f0acc3309a6800953ea6cc84489874ee12c0202202b8b9aa44d7233fc243e"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18926985"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18926985"
 
 [pkgs.meta]
 name = "private-pypi"
@@ -153,7 +153,7 @@ distrib = "private-pypi"
 package = "private_pypi-0.1.0a16-py3-none-any"
 ext = "whl"
 sha256 = "75a845b819c6980e34b3e468d1d7f7d00fc04bb9e573324fef8e87f9ed8b4bc5"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18926362"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18926362"
 
 [pkgs.meta]
 name = "private-pypi"
@@ -190,7 +190,7 @@ distrib = "private-pypi-github"
 package = "private_pypi_github-0.1.1a24-py3-none-any"
 ext = "whl"
 sha256 = "5f7c15ec0744cd22a1ca59694353f11d533883745cffdef91d59dee96c67ecb5"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18920779"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18920779"
 
 [pkgs.meta]
 name = "private-pypi-github"
@@ -227,7 +227,7 @@ distrib = "private-pypi-core"
 package = "private_pypi_core-0.1.3a16-py3-none-any"
 ext = "whl"
 sha256 = "2bc13489c48c3d7c86d69eb8f34bf2d9d40d770e8dac6a146793000f4f5fa7ae"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18920436"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18920436"
 
 [pkgs.meta]
 name = "private-pypi-core"
@@ -264,7 +264,7 @@ distrib = "private-pypi"
 package = "private_pypi-0.1.0a15-py3-none-any"
 ext = "whl"
 sha256 = "c3b9fc7ed0c6cbdb0fe4635c9755fc80c42d6ba584cd762ab0be4688a8cdd7ae"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18905167"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18905167"
 
 [pkgs.meta]
 name = "private-pypi"
@@ -301,7 +301,7 @@ distrib = "private-pypi-github"
 package = "private_pypi_github-0.1.1a23-py3-none-any"
 ext = "whl"
 sha256 = "16d29979f6832b2266b6f8919de71e18a4593e619eaa44582ed8f1eadbc6ea1a"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18905090"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18905090"
 
 [pkgs.meta]
 name = "private-pypi-github"
@@ -338,7 +338,7 @@ distrib = "private-pypi-core"
 package = "private_pypi_core-0.1.3a15-py3-none-any"
 ext = "whl"
 sha256 = "1a48e26100da94f0073e7f56d0369b2c6b7300ad9978771fdef9acfdf68c4301"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18905039"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18905039"
 
 [pkgs.meta]
 name = "private-pypi-core"
@@ -375,7 +375,7 @@ distrib = "private-pypi-github"
 package = "private_pypi_github-0.1.1a22-py3-none-any"
 ext = "whl"
 sha256 = "20822a6d313fe0c3ece97757b0d7efa36495fde966930210240ad3318847add7"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18905010"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18905010"
 
 [pkgs.meta]
 name = "private-pypi-github"
@@ -412,7 +412,7 @@ distrib = "private-pypi-core"
 package = "private_pypi_core-0.1.3a14-py3-none-any"
 ext = "whl"
 sha256 = "c6a5d2fe993ff1ff0a9f7aecabc7cb0632b706e8206b132831b135a7a3f2a4b1"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18904890"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18904890"
 
 [pkgs.meta]
 name = "private-pypi-core"
@@ -449,7 +449,7 @@ distrib = "private-pypi"
 package = "private_pypi-0.1.0a14-py3-none-any"
 ext = "whl"
 sha256 = "d704ca61ca480757095785116bb9cf84247b433199c1625c1d4606dfba303371"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18904456"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18904456"
 
 [pkgs.meta]
 name = "private-pypi"
@@ -486,7 +486,7 @@ distrib = "private-pypi-github"
 package = "private_pypi_github-0.1.1a21-py3-none-any"
 ext = "whl"
 sha256 = "f2b62b462ddf402b71b1b74847b6494ba5dddb988d45b677715892b95da67305"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18904212"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18904212"
 
 [pkgs.meta]
 name = "private-pypi-github"
@@ -523,7 +523,7 @@ distrib = "private-pypi-core"
 package = "private_pypi_core-0.1.3a13-py3-none-any"
 ext = "whl"
 sha256 = "c05f249e93f7d07f266c85fd7cb659719504e0c72d33d877cbaab3bf7ade5de6"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18898692"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18898692"
 
 [pkgs.meta]
 name = "private-pypi-core"
@@ -560,7 +560,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp38-cp38-manylinux2010_x86_64"
 ext = "whl"
 sha256 = "adc36dabdff0b9a4c84821ef5ce45848f30b8a01a1d5806316e068b5fd669c6d"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872849"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872849"
 
 [pkgs.meta]
 name = "psutil"
@@ -596,7 +596,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp38-cp38-manylinux2010_i686"
 ext = "whl"
 sha256 = "b164827def7ea70e8fab2962df11621d6075205dc42a72b00c2c5e941931c1e7"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872848"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872848"
 
 [pkgs.meta]
 name = "psutil"
@@ -632,7 +632,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp38-cp38-macosx_10_13_x86_64"
 ext = "whl"
 sha256 = "2718d3503a6a4983bd274764225615effff567148fca6580673fe5f61db03ede"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872845"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872845"
 
 [pkgs.meta]
 name = "psutil"
@@ -668,7 +668,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp37-cp37m-manylinux2010_x86_64"
 ext = "whl"
 sha256 = "1c39254e9359249747e811f4b97a3558dd295bcf08d40cc99951deb533e87709"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872843"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872843"
 
 [pkgs.meta]
 name = "psutil"
@@ -704,7 +704,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp37-cp37m-manylinux2010_i686"
 ext = "whl"
 sha256 = "13f591ca551c5dc21a72b75c249d8907cf4ab73a26525b80acbcbff73a4a6d44"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872842"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872842"
 
 [pkgs.meta]
 name = "psutil"
@@ -740,7 +740,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp37-cp37m-macosx_10_13_x86_64"
 ext = "whl"
 sha256 = "31248d37dba3f2614450436c0e3adce77b57ff5d891fe7d77606b01acaa362ad"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872841"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872841"
 
 [pkgs.meta]
 name = "psutil"
@@ -776,7 +776,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp36-cp36m-manylinux2010_x86_64"
 ext = "whl"
 sha256 = "21bfa291650d9fafdd0e04fe27bb8cab5f17fdf3d8e98ff14b5342dd8498f523"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872840"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872840"
 
 [pkgs.meta]
 name = "psutil"
@@ -812,7 +812,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp36-cp36m-manylinux2010_i686"
 ext = "whl"
 sha256 = "0e07740da1ccbaa899349d7ebaf51defc40ce763f89105ad2e8673fb7bc7854e"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872838"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872838"
 
 [pkgs.meta]
 name = "psutil"
@@ -848,7 +848,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp36-cp36m-macosx_10_13_x86_64"
 ext = "whl"
 sha256 = "7d05fbd528cd3d4d7250af304e57b61e99164fca25285c65e57b0d71e84489fc"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872837"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872837"
 
 [pkgs.meta]
 name = "psutil"
@@ -884,7 +884,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp35-cp35m-manylinux2010_x86_64"
 ext = "whl"
 sha256 = "cfa1d05d9677adbb293c4af16a38f6cb7f2e1e7c0d802c36b8cbf6c10b9319a6"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872836"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872836"
 
 [pkgs.meta]
 name = "psutil"
@@ -920,7 +920,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp35-cp35m-manylinux2010_i686"
 ext = "whl"
 sha256 = "2b53360fbf877f0e4f1a5e96e872875248de08bef001d8600b89b20380023f31"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872835"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872835"
 
 [pkgs.meta]
 name = "psutil"
@@ -956,7 +956,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp35-cp35m-macosx_10_13_x86_64"
 ext = "whl"
 sha256 = "011159408680bf295c6ff3899dfc8b91d1cd1b283afcd2b1c00f594c1b4b1af0"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872834"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872834"
 
 [pkgs.meta]
 name = "psutil"
@@ -992,7 +992,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp27-cp27mu-manylinux2010_x86_64"
 ext = "whl"
 sha256 = "9983cdc811c0cc7145ffe9682ffd9c11d434acb8783a28e60187e689f4a0fd91"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872833"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872833"
 
 [pkgs.meta]
 name = "psutil"
@@ -1030,7 +1030,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp27-cp27mu-manylinux2010_i686"
 ext = "whl"
 sha256 = "a837b02370281743236bf6495dbd14011475fc62beb3be26fead9c97e5302234"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872832"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872832"
 
 [pkgs.meta]
 name = "psutil"
@@ -1068,7 +1068,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp27-cp27m-manylinux2010_x86_64"
 ext = "whl"
 sha256 = "8c477b83e022c3cc03299894d4278381eeee2426c3242ba92c35da15edb6919b"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872831"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872831"
 
 [pkgs.meta]
 name = "psutil"
@@ -1106,7 +1106,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp27-cp27m-manylinux2010_i686"
 ext = "whl"
 sha256 = "8e9119578e5e27d8d6cdf52c9b8fb07e8f12d75949e554e02b3c2751fa295548"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872830"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872830"
 
 [pkgs.meta]
 name = "psutil"
@@ -1144,7 +1144,7 @@ distrib = "psutil"
 package = "psutil-5.7.0-cp27-cp27m-macosx_10_13_x86_64"
 ext = "whl"
 sha256 = "51b55982739a5adab4989df0100a7502f58d211f9e2d4e5f4bee2b6074e6785e"
-url = "https://api.github.com/repos/pywharf/private-pypi-pkg-repo/releases/assets/18872829"
+url = "https://api.github.com/repos/pywharf/pywharf-pkg-repo/releases/assets/18872829"
 
 [pkgs.meta]
 name = "psutil"
